@@ -1,0 +1,23 @@
+.center{
+   
+    /* border: 1px solid black; */
+    margin: 40%;
+}
+.base{
+    display: block;
+    align-items: center;
+}
+/* mat-grid-tile {
+    background: lightblue;
+  } */
+.answer{
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+.p1{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}

@@ -1,2 +1,17 @@
-<p>change works!</p>
+<div class="base">
+    <div class="center">
+        <div class="answer">
+            <p class="p1">{{answer}}</p>
+        </div>
+        <mat-grid-list cols="4"  rowHeight="30px:30px" >
+            <div *ngFor="let number of buttons">
+                <mat-grid-tile >
+                    <button mat-fab color="accent" (click)="calculate(number)">
+                        {{number}}
+                      </button>
+                    </mat-grid-tile>
+            </div>
+          </mat-grid-list>
+    </div>
+</div>
  
