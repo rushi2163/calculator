@@ -1,23 +1,42 @@
 .center{
    
-    /* border: 1px solid black; */
-    margin: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 450px;
+    width: 250px;
+
+    /* margin: 40%; */
 }
 .base{
-    display: block;
-    align-items: center;
+    /* display: block;
+    align-items: center; */
+    display: flex;
+    justify-content: center; /* X-axis */
+    align-items: center;/*Y-axis*/
+    height: 100%;
+
 }
-/* mat-grid-tile {
-    background: lightblue;
-  } */
+.buttons-container{
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-around;
+  
+}
+.btn{
+  padding:3px ;
+}
 .answer{
     height: 100px;
-    display: block;
-    text-align: center;
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    /* border: 1px solid red; */
     
   }
 .p1{
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
 }
+
